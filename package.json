@@ -1,0 +1,36 @@
+{
+  "name": "jspm-inspector",
+  "version": "0.0.0",
+  "preferGlobal": true,
+  "bin": {
+    "jspm-inspector": "index.js"
+  },
+  "description": "Utility to inspect a project's JSPM configuration, useful for build automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Isaiah Simpson <isaiah.simpson@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "lodash": "^3.10.1",
+    "semver-regex": "^1.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acaides/jspm-inspector.git"
+  },
+  "keywords": [
+    "node",
+    "jspm"
+  ],
+  "bugs": {
+    "url": "https://github.com/acaides/jspm-inspector/issues"
+  },
+  "homepage": "https://github.com/acaides/jspm-inspector#readme",
+  "engines": {
+    "node": ">=5.0.0"
+  }
+}
